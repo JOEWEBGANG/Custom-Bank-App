@@ -1,0 +1,113 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #313131;
+    color: #333;
+  }
+  
+  #app {
+    padding: 2rem;
+    max-width: 600px;
+    margin: auto;
+    background-color: white; /* dark background to enhance glow */
+    border: 2px solid rgb(0, 0, 0); /* cyan neon border */
+    box-shadow: 0 0 10px #0ff,
+                0 0 20px #0ff,
+                0 0 40px #0ff,
+                0 0 60px #0ff;
+    border-radius: 12px;
+    margin-top: 4rem;
+  }
+  
+  h1, h2 {
+    color: #2c3e50;
+    text-align: center;
+  }
+
+  #logo{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+  }
+  
+  label {
+    font-weight: 600;
+    margin-top: 0.5rem;
+    color: #000000;
+  }
+
+  input::placeholder{
+    color:#888;
+    font-style: italic;
+  }
+  
+  input {
+    padding: 0.5rem;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: white;
+    padding: 0.6rem 1rem;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 0.5rem;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  header a {
+    color: #ff0000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  header a:hover {
+    text-decoration: underline;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    color: #fff;
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 0.75rem;
+    border: 1px solid #000000;
+  }
+  
+  th {
+    background-color: #a1a1a1;
+    color: rgb(0, 0, 0);
+  }
+  
+  
